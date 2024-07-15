@@ -1,0 +1,9 @@
+print("Hej! Jag är din första chatbot.")
+
+while True:
+    user_input = input("Du: ")
+    if user_input.lower() == "hejdå":
+        print("Chatbot: Tack för pratstunden! Ha en bra dag!")
+        break
+    else:
+        print(f"Chatbot: Du skrev '{user_input}'. Tyvärr kan jag inte svara på det än.")
